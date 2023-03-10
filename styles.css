@@ -1,0 +1,53 @@
+body {
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(92, 218, 222, 0.451),
+    rgb(253, 253, 253)
+  );
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+main {
+  align-self: center;
+  margin: auto;
+  display: block;
+  width: 450px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.124);
+}
+
+button {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#banner {
+  text-align: center;
+  width: 100%;
+}
+
+.X {
+  background-color: lightcoral;
+}
+
+.O {
+  background-color: lightblue;
+}
+
+#new {
+  display: inline;
+  width: auto;
+  height: auto;
+}
+
+#scoreboard {
+  display: inline;
+}
